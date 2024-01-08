@@ -2,14 +2,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 20px 10px;
+    align-items: center;
+    background-color: rgb(241, 241, 252);
     padding: 10px;
 
 }
 .proj-heading{
-    font-size: 40px;
+    font-size: 30px;
     color:rgb(1, 1, 59);
     margin-top: 1.8em;
+    text-decoration: underline;
 }
 .single-proj{
     display: flex;
@@ -20,6 +22,7 @@
     margin-left: auto;
     margin-right: auto;
     
+    
 }
 .description-cont{
     display: flex;
@@ -28,6 +31,8 @@
     padding: 10px;
     margin: 10px;
     width: 40%;
+    background-color: aliceblue;
+    background-size: cover;
 }
 .image-size{
     width: 250px;

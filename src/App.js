@@ -21,9 +21,12 @@ function App() {
   };
  
   return (
-    <div className="App">
-      <Header />
-      <About />
+    <div >
+      <div className="App">
+        <Header />
+        <About />        
+      </div>
+
       <AddProject onAddProject={addProject} projects={projects} />
       <Project projects={projects} />
       <Contact />

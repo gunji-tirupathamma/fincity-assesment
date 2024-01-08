@@ -1,20 +1,21 @@
 .add-project-cont{
-    background-image: url("https://img.freepik.com/premium-vector/vector-ornamental-rectangular-frame_606226-645.jpg?size=626&ext=jpg&ga=GA1.1.1180613472.1690045773&semt=ais");
+    display: flex;
+    flex-direction: column;    
+    position: relative;
+    align-items: center;   
+    background-color: rgb(241, 241, 252);
     background-size: cover;
-    align-items: center;
-    padding: 40px 10px;
 
 }
 
 .add-heading{
-    font-size: 40px;
+    font-size: 30px;
     color:rgb(1, 1, 59);
     margin-top: 1.8em;
+    text-decoration: underline;
 }
 form{
     margin: 10px;
-    background-color:burlywood;
-    background-size: cover;
     padding: 20px 0;
     margin: 10px;
     width: 30vw;
@@ -68,4 +69,7 @@ label{
     font-size: 18px;
     font-weight: 500;
 
+}
+img{
+    width: 100%;
 }

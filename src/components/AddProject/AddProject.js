@@ -65,6 +65,7 @@ localStorage.setItem('projects', JSON.stringify([...projects, newProject]));
                     onChange={(e) => setDescription(e.target.value)}
                     required
                 />
+                
             </div>
         
        
@@ -73,6 +74,7 @@ localStorage.setItem('projects', JSON.stringify([...projects, newProject]));
           <button type="submit" className='add-button'>Add</button>
         </div>
       </form>
+      <img src="https://res.cloudinary.com/drdjty87p/image/upload/v1704431772/Vector_adwan0.png" alt="" className='img'/>
     </div>
   );
 }
